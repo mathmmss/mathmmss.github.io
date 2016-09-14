@@ -56,7 +56,6 @@ ul.posts li {
 .dropdown {
     position: relative;
     display: inline-block;
-    text-align: center;
 }
 .menudrp{
     position: relative;
@@ -67,7 +66,6 @@ ul.posts li {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    text-align: center;
 }
 .uloption{
     text-align=center;
@@ -76,7 +74,6 @@ ul.posts li {
     color: white;
     text-decoration: none;
     display: block;
-    text-align: center;
 }
 
 /* Dropdown Content (Hidden by Default) */
