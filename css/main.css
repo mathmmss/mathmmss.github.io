@@ -67,6 +67,9 @@ ul.posts li {
     border: none;
     cursor: pointer;
 }
+.uloption{
+    text-align=center;
+}
 .menudrp a {
     color: white;
     text-decoration: none;
