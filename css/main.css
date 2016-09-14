@@ -6,15 +6,17 @@ nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: bold;text-align: center;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    text-align: center;
 }
 a {
     text-decoration: none;
     color: #999;
+    text-align: center;
 }
 a:hover {
     text-decoration: underline;
@@ -50,12 +52,14 @@ ul.posts li {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
+    text-align: center;
 }
 .menudrp{
     position: relative;
@@ -66,6 +70,7 @@ ul.posts li {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 .uloption{
     text-align=center;
@@ -74,6 +79,7 @@ ul.posts li {
     color: white;
     text-decoration: none;
     display: block;
+    text-align: center;
 }
 
 /* Dropdown Content (Hidden by Default) */
