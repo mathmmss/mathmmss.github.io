@@ -92,7 +92,7 @@
 					<p>Segue abaixo retorno final do software:</p>
 					<p><img class="img-responsive" src="assets/img/img7.png" alt=""></p>
 					<br>
-					<h4>Exercício 5.2 - Histograma</h4>
+					<h4>Exercício 5.2.1 - Histograma</h4>
 					<p>Para equalizar a imagem utilizei a função do openCV equalizeHist() e o código de calculo do histograma disponibilizado pelo professor. Além disso, associei a função equalize com outras do openCV.</p>
 					<p>O código usado pode ser visto abaixo:</p>
 					<br>
@@ -103,6 +103,22 @@
 					<p>A função equalizeHist é a que realiza de fato a equalização da nossa imagem, essa equalização é feita no primeiro canal o 0, isso por que é nele que está o Y (quantidade de preto de branco).</p>
 					<p>Merge faz o contrário da função split, ele une os canais.</p>
 					<p>E a função cvtColor novamente vai converter a imagem, só que dessa vez novamente para o formato RGB</p>
+					<h4>Exercício 5.2.2 - Detector de Movimento Usando Histograma</h4>
+					<p>Esse exercício ainda não foi realizado, pois não consegui uma webcam.</p>
+					<br>
+					<h4>Exercícios 6.2 - Filtro Espacial</h4>
+					<p>Para calcular o laplaciano do gaussiano só precisamos rodar um filtro e depois o outro.</p>
+					<p>Primeiramente adicionei a opção p para o usuário escolher, quando o usuário escolhe essa opção uma váriavel vira true a função é desencadeada como mostra o código abaixo:</p>
+					<br>
+					<p><img class="img-responsive" src="assets/img/img9.png" alt=""></p>
+					<p>Dentro do if, nós atribuimos para a variável mask o filtro do gassiano, realizamos um ganho nele e depois aplicamos na imagem com a função filter2D, a função filter2D tem como saída a matriz framelapgau que logo em seguida será a entrada da função filter2D, só que dessa vez ela executa o filtro do laplaciano.</p>
+					<p>Por fim, a segunda execução do filter2D retorna frameFiltered que é a nossa imagem com o laplaciano do gaussiano.</p>
+					<p>A imagem abaixo mostra o resultado da aplicação desse filtro e a comparação com o laplaciano e a original.</p>
+					<p><b>Original-Laplaciano</b></p>
+					<p><img class="img-responsive" src="assets/img/img10.png" alt=""></p>
+					<p><b>Original-Laplaciano do gaussiano</b></p>
+					<p><img class="img-responsive" src="assets/img/img11.png" alt=""></p>
+					
 					
 				</div>
 
