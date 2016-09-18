@@ -95,6 +95,14 @@
 					<h4>Exercício 5.2 - Histograma</h4>
 					<p>Para equalizar a imagem utilizei a função do openCV equalizeHist() e o código de calculo do histograma disponibilizado pelo professor. Além disso, associei a função equalize com outras do openCV.</p>
 					<p>O código usado pode ser visto abaixo:</p>
+					<br>
+					<p><img class="img-responsive" src="assets/img/img8.png" alt=""></p>
+					<br>
+					<p>A função cvtColor converte a função de RGN para YCrCb que é um sistema com uma componente de luminância é 2 de cores.</p>
+					<p>A função split vai separar os canais da imagem sendo 0 o Y a luminância (informação de preto e branco) e 1 e 2 as componentes de cores Cr e Cb respectivamente.</p>
+					<p>A função equalizeHist é a que realiza de fato a equalização da nossa imagem, essa equalização é feita no primeiro canal o 0, isso por que é nele que está o Y (quantidade de preto de branco).</p>
+					<p>Merge faz o contrário da função split, ele une os canais.</p>
+					<p>E a função cvtColor novamente vai converter a imagem, só que dessa vez novamente para o formato RGB</p>
 					
 				</div>
 
