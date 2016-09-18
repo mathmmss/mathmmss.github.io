@@ -85,7 +85,9 @@
 					<p>Resultado da limpeza nas bordas abaixo:</p>
 					<p><img class="img-responsive" src="assets/img/img5.png" alt=""></p>
 					<p>Em seguida aplicamos o seedfill em toda imagem para o tom de cinza 10. Isso é feito para que o fundo da imagem seja diferenciado dos buracos.</p>
-					<p>Para contar quantos buracos tem e diferenciar os objetos com buracos dos sem buracos, varremos a imagem procurando por objetos (pixels com valor 255) e salvamos sua coordenada, se ele não for 255 verificamos se ele é 0 (buraco), caso seja 0 indica o último valor branco encontrado é um objeto com buraco, assim, aplicamos o seedfill para um tom 150 no buraco, no objeto e incrementamos um contador.</p>
+					<p>Para contar quantos buracos tem e diferenciar os objetos com buracos dos sem buracos, varremos a imagem procurando por objetos (pixels com valor 255) e salvamos sua coordenada. Se ele não for 255 verificamos se ele é 0 (buraco), caso seja 0, indica que o último valor branco encontrado é um objeto com buraco, assim, aplicamos o seedfill para um tom 150 no buraco, no objeto e incrementamos um contador.</p>
+					<p>Segue esse trecho de código abaixo:</p>
+					<p><img class="img-responsive" src="assets/img/img6.png" alt=""></p>
 				</div>
 
 			</div><!-- /row -->
