@@ -79,6 +79,11 @@
 					<p>Utilizando o seedfill ele irá pintar cada objeto encontrado com um tom de cinza. Se a imagem possuir mais de 255 imagens, podemos utiizar outro tipo de variável no lugar de unsigned char, pois a diferença no tom de cinza para nós será impeceptível, mas o computador conseguirá contar a quantidade de objeto.</p>
 					<br>
 					<h4>Exercício 4.2.2 - Preenchendo Regiões</h4>
+					<br>
+					<p>Primeiramente limpamos as bordas na imagem, visto que na borda não conseguimos saber se é com buraco ou não.</p>
+					<p>Para limpar as bordas varremos a imagem na primeira linha e coluna, além de também varrer a última linha e coluna. Se um objeto for encontrado, aplicamos o seefill mudando o valor do pixel para 0, ou seja, ficando o qual o fundo.</p>
+					<p>Resultado da limpeza nas bordas abaixo:</p>
+					<p><img class="img-responsive" src="assets/img/img5.png" alt=""></p>
 				</div>
 
 			</div><!-- /row -->
