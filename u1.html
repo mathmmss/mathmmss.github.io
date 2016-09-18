@@ -108,7 +108,7 @@
 					<br>
 					<h4>Exercícios 6.2 - Filtro Espacial</h4>
 					<p>Para calcular o laplaciano do gaussiano só precisamos rodar um filtro e depois o outro.</p>
-					<p>Primeiramente adicionei a opção p para o usuário escolher, quando o usuário escolhe essa opção uma váriavel vira true a função é desencadeada como mostra o código abaixo:</p>
+					<p>Primeiramente adicionei a opção <b>p</b> para o usuário escolher, quando o usuário escolhe essa opção uma váriavel vira true e a função é desencadeada como mostra o código abaixo:</p>
 					<br>
 					<p><img class="img-responsive" src="assets/img/img9.png" alt=""></p>
 					<p>Dentro do if, nós atribuimos para a variável mask o filtro do gassiano, realizamos um ganho nele e depois aplicamos na imagem com a função filter2D, a função filter2D tem como saída a matriz framelapgau que logo em seguida será a entrada da função filter2D, só que dessa vez ela executa o filtro do laplaciano.</p>
