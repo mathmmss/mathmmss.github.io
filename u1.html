@@ -124,7 +124,7 @@
 					<p>A função utilizada é a seguinte: α(x)=1/2((tanhx−l1)/d−(tanhx−l2)/d).</p>
 					<p>Onde l1 e l2 delimita a área onde a foto terá foco e d é a intensidade com que a área será desfocada.</p>
 					<p>No algoritmo utilizamos trackbars para escolher a posição que a área de foco estará, o tamanho da área de foco, como também o intensidade do desfoque.</p>
-					<p>A implementação da função criada para aplicar o filtro e calcular os área segue abaixo:</p>
+					<p>A implementação da função criada para aplicar o filtro e calcular as áreas de foco segue abaixo:</p>
 					<p><img class="img-responsive" src="assets/img/img12.png" alt=""></p>
 					<p>A função on_trackbar_blend é chamada a cada vez que usamos a trackbar, nela calculamos os valores de l1 e l2 utilizando a posição atual das trackbars, em seguida dentro de um looping chamamos a função alfa_calc que realizará o calculo do coeficiente para cada linha da imagem, após o calculo desse coeficiente, a já referida função addweighted aplica o efeito tiltshift para de cada linha da imagem de cada vez.</p>
 					<p>Segue abaixo o resultado do efeito:</p>
