@@ -70,9 +70,17 @@
 					<br>			
 					<p>Segue abaixo a imagem antes e depois do filtro:</p>
 					<p><img class="img-responsive" src="assets/img/u2-2.png" alt=""></p>
-				
-					
-					
+					<br>
+					<h4>Exercício 11.1 - Pontilhismo usando Canny</h4>
+					<p>Nesse exercício tentei associar os dois conceitos ensinados. Utilizando os exemplos disponibilizados pelo professor, relacionei os dois algoritimos e alcancei uma imagem pontilhista mais "suave", tornando a imagem mais clara e fácil de ser compreendida.</p>
+					<p>Primeiramente adaptei o código do pontilhismo disponibilizado para trabalhar com imagens coloridas, criando um Vec3b para trabalhar com as 3 componentes de cor. Em seguida, apliquei o pontilhismo na imagem diminuindo o deslocamento aleatório (Jitter). Após isso, apliquei o filtro de Canny com um limiar de 100 de mínimo e 200 de máximo. Por fim, apliquei a tecnica do pontilhismo somente nas bordas</p>
+					<br>
+					<p>Limiar de bordas escolhido e onde será aplicado o pontilhismo novamente:</p>
+					<p><img class="img-responsive" src="assets/img/u2-4.png" alt=""></p>
+					<p>Pontilhismo sem Canny</p>
+					<p><img class="img-responsive" src="assets/img/u2-5.png" alt=""></p>
+					<p>Pontilhismo com Canny</p>
+					<p><img class="img-responsive" src="assets/img/u2-6.png" alt=""></p>
 					
 					
 					
